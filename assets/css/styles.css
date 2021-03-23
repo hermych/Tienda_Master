@@ -16,6 +16,22 @@ a:visited{
 a:hover{
     color: #555555;
 }
+.alert_gree{
+    color: green;
+}
+.alert_red{
+    color: red;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    border: 1px solid #555;
+}
+td{
+    border-top: 1px solid #ccc;
+    padding: 5px;
+}
 
 /* CONTAINER */
 #container{
@@ -181,8 +197,13 @@ button, .button{
 }
 .button{
     background: #33ae3d;
-    color: white;
+    color: white!important;
     text-decoration: none;
+}
+.button-small{
+    width: 120px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 label,
 input[type="button"],
